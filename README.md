@@ -14,3 +14,14 @@
 ![image]()<br><br>
 再來我們先查看資料夾下面有哪些submodule，這裡只有打上git submodule就可以顯示資料夾下方所有submodule的路徑<br>
 ![image]()<br><br>
+這時候我們去含有submoudle的其中一個目錄下可以發現，裡面是空的<br>
+![image]()<br><br>
+現在我們就必須初始化並更新submodule<br>
+使用命令 : git submodule init(初始化) && git submodule update(更新)<br>
+也可以使用git submodule update --init --recursive<br>
+--recursive 會在 submodule 裡面還有 submodule 的時候，一口氣都設定好。<br>
+又或者可以在 clone 專案的時候就指定要一齊複製 submodule<br>
+![image]()<br><br>
+更新完以後，再重回我們的資料夾內，可以看到資料都可以新增進來了<br>
+![image]()<br><br>
+而另外一種情況由我們自已新增一個submodule給其他使用者使用
