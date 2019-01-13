@@ -30,7 +30,8 @@
 首先我們先在github建立一個repositorbry方便最後做測試<br>
 接下來就是要新增submodule<br>
 語法：git submodule add <repository> [<path>](哪一個檔案庫/哪個路徑)<br>
-範例：git submodule add https://github.com/facebook/facebook-php-sdk-v4.git facebook-php-sdk(facebook-php-sdk為資料夾名稱可以自行更改)<br>
+範例：git submodule add https://github.com/facebook/facebook-php-sdk-v4.git facebook-php-sdk<br>
+(facebook-php-sdk為資料夾名稱可以自行更改)<br>
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/add_submodule.PNG)<br><br>
 新增submodule後git會將資料分別寫入.git/config和.gitmodules<br>
 而在git status則會出現<br>
