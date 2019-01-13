@@ -11,7 +11,7 @@
 這裡我們先用YouCompleteMe當作例子來做示範<br>
 首先我們先在透過github把YouCompleteMe的檔案下載下來<br>
 這裡要注意的是你必須對著下載下來的資料夾做git bash，不然是看不到submodule的<br>
-![image](https://github.com/leoa12412a/Git_submodule/blob/master/clone.PNG)<br><br>
+![image](https://github.com/leoa12412a/Git_submodule/blob/master/clone.png)<br><br>
 再來我們先查看資料夾下面有哪些submodule，這裡只有打上git submodule就可以顯示資料夾下方所有submodule的路徑<br>
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/submodule.PNG)<br><br>
 這時候我們去含有submoudle的其中一個目錄下可以發現，裡面是空的<br>
