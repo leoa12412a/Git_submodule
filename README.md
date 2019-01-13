@@ -1,7 +1,7 @@
 # Git_submodule
 # 使用 git submodule 管理 project 所需的其他模組
 
-
+# 使用別人的submodule
 基本上會用到git submodule的場合，就如標題所說的，我的 project 要用到其他 project 的程式碼，我希望讓我的使用者能直接拿到其他 project 的程式碼，這樣他們不用自己再去載，麻煩之外可能還會載到錯誤的版本。<br>
 
 另一方面，我們又不想把對方的程式全部加到我的 repository 裡面，這樣會帶來不好的後果，上游的程式碼修改，要自己手動更新，沒辦法用 git 的方式更新，增加錯誤的機會。git 針對這個使用情景的解決方式就是 submodule。<br>
@@ -24,4 +24,6 @@
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/submodule_init.PNG)<br><br>
 更新完以後，再重回我們的資料夾內，可以看到資料都可以新增進來了<br>
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/after.PNG)<br><br>
+<br>
+# 創造一個自己的submodule
 而另外一種情況由我們自已新增一個submodule給其他使用者使用
