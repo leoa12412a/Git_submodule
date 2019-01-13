@@ -26,4 +26,22 @@
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/after.PNG)<br><br>
 <br>
 # 創造一個自己的submodule
-而另外一種情況由我們自已新增一個submodule給其他使用者使用
+而另外一種情況由我們自已新增一個submodule給其他使用者使用<br>
+首先我們先在github建立一個repositorbry方便最後做測試<br>
+接下來就是要新增submodule<br>
+語法：git submodule add <repository> [<path>](哪一個檔案庫/哪個路徑)<br>
+範例：git submodule add https://github.com/facebook/facebook-php-sdk-v4.git facebook-php-sdk<br>
+![image](https://github.com/leoa12412a/Git_submodule/blob/master/add_submodule.PNG)<br><br>
+新增submodule後git會將資料分別寫入.git/config和.gitmodules<br>
+而在git status則會出現<br>
+![image](https://github.com/leoa12412a/Git_submodule/blob/master/status.PNG)<br><br>
+在 .gitmodules會出現<br>
+![image](https://github.com/leoa12412a/Git_submodule/blob/master/file.PNG)<br><br>
+而在submodule內座新的修改並commit後，在前面資料夾的git status會看到有新的commit
+![image](https://github.com/leoa12412a/Git_submodule/blob/master/new.PNG)<br><br>
+在最外層的git把剛剛的submodule做commit並push到我們一開始設定好的github repository<br>
+![image](https://github.com/leoa12412a/Git_submodule/blob/master/remote.PNG)<br><br>
+現在我們再把剛剛的資料複製下來，並打開facebook-php-sdk資料夾，發現跟一開始一樣是看不到submodule裡面資料<br>
+![image](https://github.com/leoa12412a/Git_submodule/blob/master/sdk.PNG)<br><br>
+這時候只要再使用git submodule init 和git submodule update就可以拿到fb最新的sdk了
+
