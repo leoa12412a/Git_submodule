@@ -38,7 +38,7 @@
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/status.PNG)<br><br>
 在 .gitmodules會出現<br>
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/file.PNG)<br><br>
-而在submodule內座新的修改並commit後，在前面資料夾的git status會看到有新的commit
+而在submodule內做新的修改並commit後，在前面資料夾的git status會看到有新的commit
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/new.PNG)<br><br>
 在最外層的git把剛剛的submodule做commit並push到我們一開始設定好的github repository<br>
 ![image](https://github.com/leoa12412a/Git_submodule/blob/master/remote.PNG)<br><br>
